@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link rel="stylesheet" href="styles/login.css" />
+</head>
+<body class="login-bg min-h-screen flex items-center justify-center font-sans">
+
+  <div class="glass-box p-10 rounded-3xl shadow-xl w-full max-w-md">
+    <h2 class="text-3xl text-white font-bold text-center mb-6">Admin Login</h2>
+    <form action="/upload.html" class="space-y-6">
+      <div>
+        <label class="block text-white/80 mb-1">Username</label>
+        <input type="text" placeholder="Enter username" class="input-field"/>
+      </div>
+      <div>
+        <label class="block text-white/80 mb-1">Password</label>
+        <input type="password" placeholder="Enter password" class="input-field"/>
+      </div>
+      <button type="submit" class="login-btn">
+        Login
+      </button>
+    </form>
+  </div>
+
+</body>
+</html>
